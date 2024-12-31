@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",  
+    "skipLibCheck": true,
+    "baseUrl": "./",  
+    "paths": {
+      "@/*": ["src/*"]  // Mapping @ to the src folder
+    }
+  }
+}
+
